@@ -10,7 +10,7 @@ public class lesson_1 {
         domzadanie8(1985);
 
 
-        byte b = 7;         /* Çàäàíèå 2 */
+        byte b = 7;         /* Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 2 */
         short s = 8;
         int i = 1234567;
         long l = 4000001500L;
@@ -25,17 +25,17 @@ public class lesson_1 {
         char ch7 = '\u043E';
         char ch8 = '\u0021';
         boolean bl = true;
-        String str = "Ïåðâûé óðîê";
+        String str = "ÐŸÐµÑ€Ð²Ñ‹Ð¹ ÑƒÑ€Ð¾Ðº";
         System.out.println(ch + " " + ch2 + " " + ch3 + " " + ch4 + " " + ch5 + " " + ch6 + " " + ch7 + " " + ch8);
 
 
     }
 
-    public static int calculate(int a, int b, int c, int d2)  /* Çàäà÷à 3*/ {
+    public static int calculate(int a, int b, int c, int d2)  /* Ð—Ð°Ð´Ð°Ñ‡Ð° 3*/ {
         return (a * (b + (c / d2)));
     }
 
-    public static boolean domzadanie4(int a, int b) {  /*  Çàäà÷à 4 */
+    public static boolean domzadanie4(int a, int b) {  /*  Ð—Ð°Ð´Ð°Ñ‡Ð° 4 */
         int c = a + b;
         if (c >= 10 && c <= 20) {
             return true;
@@ -43,15 +43,15 @@ public class lesson_1 {
         return false;
     }
 
-    public static void domzadanie5(int a) {            /*Çàäà÷à 5 */
+    public static void domzadanie5(int a) {            /*Ð—Ð°Ð´Ð°Ñ‡Ð° 5 */
         if (a < 0) {
-            System.out.println("×èñëî îòðèöàòåëüíîå");
+            System.out.println("Ð§Ð¸ÑÐ»Ð¾ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ");
         } else {
-            System.out.println("×èñëî ïîëîæèòåëüíîå");
+            System.out.println("Ð§Ð¸ÑÐ»Ð¾ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ");
         }
     }
 
-    public static boolean domzadanie6(int a)  /*Çàäà÷à 6 */ {
+    public static boolean domzadanie6(int a)  /*Ð—Ð°Ð´Ð°Ñ‡Ð° 6 */ {
         if (a < 0) {
             return true;
         } else {
@@ -60,16 +60,16 @@ public class lesson_1 {
     }
 
     public static void getName(String a) {
-        System.out.println("Ïðèâåò, " + a);
+        System.out.println("ÐŸÑ€Ð¸Ð²ÐµÑ‚, " + a);
     }
 
 
     public static void domzadanie8(int year) {
         if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println(year + " Ãîä âèñîêîñíûé.");
+            System.out.println(year + " Ð“Ð¾Ð´ Ð²Ð¸ÑÐ¾ÐºÐ¾ÑÐ½Ñ‹Ð¹.");
         } else {
 
-            System.out.println(year + " Ãîä íå âûñîêîñíûé.");
+            System.out.println(year + " Ð“Ð¾Ð´ Ð½Ðµ Ð²Ñ‹ÑÐ¾ÐºÐ¾ÑÐ½Ñ‹Ð¹.");
         }
     }
 }
