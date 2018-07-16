@@ -81,44 +81,4 @@ public class lesson_1 {
 
 
 
-    }
-
-    public static void domzadanie5(int a) {            /*Задача 5 */
-        if (a < 0) {
-            System.out.println("Число отрицательное");
-        } else {
-            System.out.println("Число положительное");
-        }
-    }
-
-    public static boolean domzadanie6(int a)  /*Задача 6 */ {
-        if (a < 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public static void getName(String a) {
-        System.out.println("Привет, " + a);
-    }
-
-
-    public static void domzadanie8(int year) {
-        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println(year + " Год високосный.");
-        } else {
-
-            System.out.println(year + " Год не высокосный.");
-        }
-    }
-}
-
-
-
-
-
-
-
-
 
